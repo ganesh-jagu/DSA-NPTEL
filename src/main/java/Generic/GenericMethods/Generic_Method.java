@@ -1,6 +1,4 @@
-package Generic;
-
-import java.sql.SQLOutput;
+package Generic.GenericMethods;
 
 public class Generic_Method {
     public static <T> void genericMethod(T t)
