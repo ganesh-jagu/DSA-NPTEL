@@ -45,7 +45,7 @@ public class WildCard<T> {
         //show(wc7);
         WildCard<Number>wc8=new WildCard<>(45.89);
         show(wc8);
-        WildCard<Object>wc9=new WildCard<>(89999);
+        WildCard<Object>wc9=new WildCard<>("jai Balayya");
         show(wc9);
     }
 }
