@@ -42,7 +42,10 @@ public class WildCard<T> {
         WildCard<Double> wc7=new WildCard<>(23.8);
         show(wc6);
         // the wc7 is not accept why because we declared show method as upper bound so it take the only integer and it's above highrarchy only like Number, Object not take the Double etc
-       // show(wc7);
-
+        //show(wc7);
+        WildCard<Number>wc8=new WildCard<>(45.89);
+        show(wc8);
+        WildCard<Object>wc9=new WildCard<>(89999);
+        show(wc9);
     }
 }
