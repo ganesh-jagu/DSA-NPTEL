@@ -138,6 +138,8 @@ public class HashTableEx {
         tm.put(30,"Thirty");
         tm.put(37,null);
         System.out.println(tm);
+        tm.put(37,"Thirty seven");
+        System.out.println(tm);
         /*
                 TreeMap
          ├── Key-value pairs
