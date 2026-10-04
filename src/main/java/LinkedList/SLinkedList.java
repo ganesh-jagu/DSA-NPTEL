@@ -16,7 +16,7 @@ public class SLinkedList <T>{
             Next=null;
         }
     }
-    SLinkedList()
+  public SLinkedList()
     {
         head=new Node();
     }
