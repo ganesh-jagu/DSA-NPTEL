@@ -148,6 +148,19 @@ public void merge(SLinkedList<T> li) {
         }
         this.head.Next=prev;
     }
+    //isEmpty
+    public boolean isEmpty()
+    {
+        Node temp=this.head.Next;
+        if(temp==null)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
     public static void main(String[] args) {
         SLinkedList<Integer> sl=new SLinkedList<Integer>();
         SLinkedList<Integer>li=new SLinkedList<Integer>();
@@ -186,8 +199,9 @@ public void merge(SLinkedList<T> li) {
         sl.reverse();
         System.out.println("Reverersed List");
         sl.display();
-
-    }
+        System.out.println(sl.isEmpty());
+        sl.display();
+      }
 }
 
 
